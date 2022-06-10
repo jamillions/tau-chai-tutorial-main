@@ -4,7 +4,7 @@
   "description": "Test project to learn Chai basics",
   "main": "index.js",
   "scripts": {
-    "test": "chai"
+    "test": "mocha test"
   },
   "keywords": [
     "mocha",
@@ -13,7 +13,8 @@
   "author": "Aparna",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "chai": "^4.3.6",
+    "mocha": "^6.2.3",
+    "nyc": "^15.1.0"
   }
 }
